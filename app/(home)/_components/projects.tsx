@@ -28,7 +28,7 @@ const projects = [
       SiGithub,
     ],
     link: "https://lms-project-five.vercel.app",
-    cover: "/lms.png",
+    cover: "./lms.png",
     background: "bg-indigo-500",
     text: " text-white",
     description:
@@ -46,7 +46,7 @@ const projects = [
       SiGithub,
     ],
     link: "https://stream-hub-mu.vercel.app/",
-    cover: "/stream-hub.png",
+    cover: "./stream-hub.png",
     text: " text-white",
     background: "bg-green-500",
     description:
@@ -56,7 +56,7 @@ const projects = [
     title: "Portfolio",
     tech: [SiNextdotjs, SiReact, SiTailwindcss, SiFramer],
     link: "https://lms-project-five.vercel.app",
-    cover: "/portfolio.png",
+    cover: "./portfolio.png",
     background: "bg-gray-500",
     text: " text-white",
     description:
@@ -75,7 +75,7 @@ const projects = [
       SiSocketdotio,
     ],
     link: "https://lms-project-five.vercel.app",
-    cover: "/guild-chat.png",
+    cover: "./guild-chat.png",
     text: " text-white",
     background: "bg-sky-500",
     description:
