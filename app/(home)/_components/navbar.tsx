@@ -9,19 +9,14 @@ interface NavbarProps {
 export default function Navbar({ className }: NavbarProps) {
   const socials = [
     {
-      link: "/",
+      link: "https://www.linkedin.com/in/joshua-arnaez-764b60143/",
       label: "LinkedIn",
       icon: SiLinkedin,
     },
     {
-      link: "/",
+      link: "https://github.com/joshuaarnaez22",
       label: "Github",
       icon: SiGithub,
-    },
-    {
-      link: "/",
-      label: "Gmail",
-      icon: SiGmail,
     },
   ];
   return (
@@ -37,6 +32,9 @@ export default function Navbar({ className }: NavbarProps) {
             </Link>
           );
         })}
+        <a href="mailto:joshuaaarnaez22@gmail.com">
+          <SiGmail className="h-5 w-5 hover:scale-125 transition-all" />
+        </a>
       </div>
     </nav>
   );
