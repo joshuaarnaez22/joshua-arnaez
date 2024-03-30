@@ -18,6 +18,8 @@ import {
   SiGit,
   SiGithub,
   SiSocketdotio,
+  SiTypescript,
+  SiStripe,
 } from "react-icons/si";
 import { LuArrowDown, LuArrowUp } from "react-icons/lu";
 import { MovingBorderBtn } from "@/components/ui/moving-border";
@@ -127,6 +129,20 @@ const skills = [
       "A web-based platform for hosting and collaborating on Git repositories, enabling version control and team collaboration.",
     link: "https://github.com/",
     Icon: SiGithub,
+  },
+  {
+    title: "Typescript",
+    description:
+      "A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+    link: "https://github.com/",
+    Icon: SiTypescript,
+  },
+  {
+    title: "Stripe",
+    description:
+      "Powers online and in-person payment processing and financial solutions for businesses of all sizes.",
+    link: "https://github.com/",
+    Icon: SiStripe,
   },
 ];
 export const Skills = () => {
