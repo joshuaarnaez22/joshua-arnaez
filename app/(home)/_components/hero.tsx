@@ -39,9 +39,17 @@ export const Hero = () => {
           <div className="glow opacity-80 absolute top-[40%] right-1/2 -z-10" />
         </div>
         <div className=" absolute bottom-5 sm:bottom-14">
-          <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-            <p>Available for work 📢 </p>
-          </MovingBorderBtn>
+          <a
+            href="https://utfs.io/f/f5b8369d-8706-41a9-ba58-5b06dc6a360f-wm00zk.pdf"
+            target="_blank"
+          >
+            <MovingBorderBtn
+              borderRadius="0.5rem"
+              className="p-3 font-semibold"
+            >
+              <p>Available for work 📢 </p>
+            </MovingBorderBtn>
+          </a>
         </div>
       </div>
     </div>
