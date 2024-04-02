@@ -20,6 +20,8 @@ import {
   SiSocketdotio,
   SiTypescript,
   SiStripe,
+  SiAngularjs,
+  SiVuedotjs,
 } from "react-icons/si";
 import { LuArrowDown, LuArrowUp } from "react-icons/lu";
 import { MovingBorderBtn } from "@/components/ui/moving-border";
@@ -45,6 +47,7 @@ const skills = [
     link: "https://reactjs.org",
     Icon: SiReact,
   },
+
   {
     title: "Tailwind CSS",
     description:
@@ -123,6 +126,7 @@ const skills = [
     link: "https://git-scm.com/",
     Icon: SiGit,
   },
+
   {
     title: "GitHub",
     description:
@@ -134,15 +138,29 @@ const skills = [
     title: "Typescript",
     description:
       "A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
-    link: "https://github.com/",
+    link: "https://www.typescriptlang.org/",
     Icon: SiTypescript,
   },
   {
     title: "Stripe",
     description:
       "Powers online and in-person payment processing and financial solutions for businesses of all sizes.",
-    link: "https://github.com/",
+    link: "https://stripe.com/",
     Icon: SiStripe,
+  },
+  {
+    title: "Angular",
+    description:
+      "Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. ",
+    link: "https://angular.io/",
+    Icon: SiAngularjs,
+  },
+  {
+    title: "Vue",
+    description:
+      "Vue.js is an open-source model–view–viewmodel front end JavaScript library for building user interfaces and single-page applications.",
+    link: "https://vuejs.org/",
+    Icon: SiVuedotjs,
   },
 ];
 export const Skills = () => {
