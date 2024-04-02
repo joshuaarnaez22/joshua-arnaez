@@ -40,7 +40,7 @@ export const Hero = () => {
         </div>
         <div className=" absolute bottom-5 sm:bottom-14">
           <a
-            href="https://utfs.io/f/f5b8369d-8706-41a9-ba58-5b06dc6a360f-wm00zk.pdf"
+            href="https://utfs.io/f/9abfae01-3aa8-4c95-9dc6-a463df8b6715-wm00zk.pdf"
             target="_blank"
           >
             <MovingBorderBtn
