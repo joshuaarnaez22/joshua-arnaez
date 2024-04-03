@@ -55,7 +55,7 @@ const projects = [
   {
     title: "Portfolio",
     tech: [SiNextdotjs, SiReact, SiTailwindcss, SiFramer],
-    link: "https://lms-project-five.vercel.app",
+    link: "https://joshua-arnaez.vercel.app/",
     cover: "/portfolio.png",
     background: "bg-gray-500",
     text: " text-white",
