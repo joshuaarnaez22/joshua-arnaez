@@ -74,7 +74,7 @@ const projects = [
       SiGithub,
       SiSocketdotio,
     ],
-    link: "https://lms-project-five.vercel.app",
+    link: "https://guild-chat.vercel.app/",
     cover: "/guild-chat.png",
     text: " text-white",
     background: "bg-sky-500",
